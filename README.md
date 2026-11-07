@@ -8,6 +8,9 @@ This dataset carries the five names each edition opens to every reader, for the 
 
 - `trending-domains.json`: the investor editions, 145 rows.
 - `business-ideas.json`: the founder editions, 0 rows.
+- `trending-domains.csv` and `business-ideas.csv`: the same rows and columns as CSV.
+- `DATA_DICTIONARY.md`: every column, its type and what it holds.
+- `LICENSE` and `CITATION.cff`.
 
 ## Fields
 
@@ -19,18 +22,10 @@ This dataset carries the five names each edition opens to every reader, for the 
 - Investor rows: `estimated_value`, `upside_percent` (an upside past 1,000% reads as the cap, with `upside_capped` true and no value), `liquidity`.
 - `rating`: `strong` or `good` when the verdict holds at medium or high confidence, `unrated` otherwise; `risky` appears only on editions published before 2026-10-22, when Risky names stopped being published.
 
-Updated on 2026-11-06 by UniqueDomains. Questions: kai@unique.domains.
+Updated on 2026-11-07 by UniqueDomains. Questions: kai@unique.domains.
 
-## Terms
+## How to cite
 
-Permission is granted to view, download, quote, and cite this public extract for research, editorial, evaluation, and internal decision-support use, provided attribution to Unique Domains is preserved.
+> Unique Domains, Trending Domains and Business Ideas, https://unique.domains/trending-domains, CC BY 4.0
 
-You may not:
-
-- remove provenance or citation metadata,
-- resell or redistribute this public extract as a competing bulk dataset without written permission,
-- present the names as a ranking of the best domains.
-
-All data is provided "as is" without warranties of completeness, accuracy, availability, legal clearance, or commercial outcome.
-
-For commercial redistribution, API access, or partnership requests, contact kai@unique.domains.
+Free under CC BY 4.0: see [LICENSE](./LICENSE). Citation metadata: [CITATION.cff](./CITATION.cff).

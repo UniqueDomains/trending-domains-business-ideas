@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Trending Domains and Business Ideas"
+type: dataset
+authors:
+  - name: "Unique Domains"
+version: "2026-11-07"
+date-released: "2026-11-07"
+url: "https://unique.domains/trending-domains"
+repository-code: "https://github.com/UniqueDomains/trending-domains-business-ideas"
+license: CC-BY-4.0
+abstract: "The open names of each daily Trending Domains and Business Ideas edition, as published, in edition order."
