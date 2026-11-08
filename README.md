@@ -19,10 +19,10 @@ This dataset carries the five names each edition opens to every reader, for the 
 - `domain`, `ending`, `match_kind` (`exact`: the trend's own word; `related`), `relation` (how a related name relates to the trend).
 - `status`, `price`, `price_kind`, `quoted_by`, `renewal_price`: the name as of the edition's publication.
 - Founder rows: `five_year_cost`, `idea_title`, `idea_pitch`.
-- Investor rows: `estimated_value`, `upside_percent` (an upside past 1,000% reads as the cap, with `upside_capped` true and no value), `liquidity`.
+- Investor rows: `estimated_value`, `upside_percent` (an est. profit past 1,000% reads as the cap, with `upside_capped` true and no value), `liquidity`.
 - `rating`: `strong` or `good` when the verdict holds at medium or high confidence, `unrated` otherwise; `risky` appears only on editions published before 2026-10-22, when Risky names stopped being published.
 
-Updated on 2026-11-07 by UniqueDomains. Questions: kai@unique.domains.
+Updated on 2026-11-08 by UniqueDomains. Questions: kai@unique.domains.
 
 ## How to cite
 

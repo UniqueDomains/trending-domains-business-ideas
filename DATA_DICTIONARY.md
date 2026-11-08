@@ -23,9 +23,9 @@ The columns of `trending-domains.json`, `business-ideas.json` and their CSV twin
 | quoted_by       | string or null                 | Who quotes the price.                                                                                         |
 | renewal_price   | number or null                 | The yearly renewal, in USD.                                                                                   |
 | five_year_cost  | number or null                 | Founder rows: the first year plus four renewals.                                                              |
-| estimated_value | number or null                 | Investor rows: the estimated value; empty when the upside passes 1,000%.                                      |
-| upside_percent  | number or null                 | Investor rows: the upside over the price, capped.                                                             |
-| upside_capped   | boolean                        | True when the upside reads as the cap.                                                                        |
+| estimated_value | number or null                 | Investor rows: the estimated value; empty when the est. profit passes 1,000%.                                 |
+| upside_percent  | number or null                 | Investor rows: the est. profit over the price, as a percentage, capped.                                       |
+| upside_capped   | boolean                        | True when the est. profit reads as the cap.                                                                   |
 | liquidity       | high, medium, low or null      | Investor rows: how easily names like it sell.                                                                 |
 | rating          | strong, good, risky or unrated | strong or good when the verdict holds at medium or high confidence; risky only on editions before 2026-10-22. |
 | idea_title      | string or null                 | Founder rows: the business idea's title.                                                                      |
