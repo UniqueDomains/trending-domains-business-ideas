@@ -22,7 +22,7 @@ This dataset carries the five names each edition opens to every reader, for the 
 - Investor rows: `estimated_value`, `upside_percent` (an est. profit past 1,000% reads as the cap, with `upside_capped` true and no value), `liquidity`.
 - `rating`: `strong` or `good` when the verdict holds at medium or high confidence, `unrated` otherwise; `risky` appears only on editions published before 2026-10-22, when Risky names stopped being published.
 
-Updated on 2026-11-08 by UniqueDomains. Questions: kai@unique.domains.
+Updated on 2026-11-09 by UniqueDomains. Questions: kai@unique.domains.
 
 ## How to cite
 
