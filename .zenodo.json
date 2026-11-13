@@ -1,0 +1,20 @@
+{
+  "title": "Trending Domains and Business Ideas: the open names of the daily editions",
+  "description": "<p>Search trends paired with a domain name that was still open on the day, and for founders a business idea written for the trend. Every morning at 06:00 UTC, Unique.domains publishes two editions: Trending Domains (<a href=\"https://unique.domains/trending-domains\">https://unique.domains/trending-domains</a>), for domain investors, and Business Ideas (<a href=\"https://unique.domains/business-ideas\">https://unique.domains/business-ideas</a>), for founders. Each edition names the trends rising in search and one domain name for each trend.</p><p>This dataset holds the five names each edition opens to every reader, for the newest 90 editions of each page, in the edition's own order; it never ranks or scores them. A row gives the trend with its monthly searches and its growth, the domain name, and the name's status and price on the day the edition was published.</p><p>The files are trending-domains.csv, trending-domains.json, business-ideas.csv and business-ideas.json, with a data dictionary that describes every column. The GitHub repository refreshes them every night, and this record holds them as they were on the day of its release.</p><p>The Unique.domains API serves the latest edition at GET https://api.unique.domains/v1/editions/{persona}/latest, with no key. Documentation: <a href=\"https://unique.domains/api\">https://unique.domains/api</a>.</p><p>Licence: CC BY 4.0. Credit \"Unique.domains\" with a link to <a href=\"https://unique.domains\">https://unique.domains</a>.</p>",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Unique.domains"
+    }
+  ],
+  "keywords": [
+    "domain names",
+    "naming trends",
+    "search trends",
+    "business ideas",
+    "startups",
+    "open data"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open"
+}

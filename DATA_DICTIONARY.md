@@ -27,6 +27,6 @@ The columns of `trending-domains.json`, `business-ideas.json` and their CSV twin
 | upside_percent  | number or null                 | Investor rows: the est. profit over the price, as a percentage, capped.                                       |
 | upside_capped   | boolean                        | True when the est. profit reads as the cap.                                                                   |
 | liquidity       | high, medium, low or null      | Investor rows: how easily names like it sell.                                                                 |
-| rating          | strong, good, risky or unrated | strong or good when the verdict holds at medium or high confidence; risky only on editions before 2026-10-22. |
+| rating          | strong, good, risky or unrated | strong or good when the verdict holds at medium or high confidence; risky only on editions before 2026-11-05. |
 | idea_title      | string or null                 | Founder rows: the business idea's title.                                                                      |
 | idea_pitch      | string or null                 | Founder rows: the business idea.                                                                              |
