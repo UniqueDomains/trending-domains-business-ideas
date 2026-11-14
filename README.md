@@ -6,8 +6,8 @@ This dataset carries the five names each edition opens to every reader, for the 
 
 ## Files
 
-- `trending-domains.json`: the investor editions, 163 rows.
-- `business-ideas.json`: the founder editions, 20 rows.
+- `trending-domains.json`: the investor editions, 168 rows.
+- `business-ideas.json`: the founder editions, 25 rows.
 - `trending-domains.csv` and `business-ideas.csv`: the same rows and columns as CSV.
 - `DATA_DICTIONARY.md`: every column, its type and what it holds.
 - `LICENSE` and `CITATION.cff`.
@@ -22,7 +22,7 @@ This dataset carries the five names each edition opens to every reader, for the 
 - Investor rows: `estimated_value`, `upside_percent` (an est. profit past 1,000% reads as the cap, with `upside_capped` true and no value), `liquidity`.
 - `rating`: `strong` or `good` when the verdict holds at medium or high confidence, `unrated` otherwise; `risky` appears only on editions published before 2026-11-05, when Risky names stopped being published.
 
-Updated on 2026-11-13 by Unique.domains. Questions: kai@unique.domains.
+Updated on 2026-11-14 by Unique.domains. Questions: kai@unique.domains.
 
 From code: the [Node.js SDK and CLI](https://github.com/UniqueDomains/nodejs) (`npm install @uniquedomains/sdk`), the [Python client](https://github.com/UniqueDomains/python) (`pip install uniquedomains`) and the [MCP server](https://github.com/UniqueDomains/mcp-server) for AI assistants, hosted at `https://mcp.unique.domains/mcp`.
 

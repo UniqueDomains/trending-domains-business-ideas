@@ -4,8 +4,8 @@ title: "Trending Domains and Business Ideas: the open names of the daily edition
 type: dataset
 authors:
   - name: "Unique.domains"
-version: "2026-11-13"
-date-released: "2026-11-13"
+version: "2026-11-14"
+date-released: "2026-11-14"
 url: "https://unique.domains/trending-domains"
 repository-code: "https://github.com/UniqueDomains/trending-domains-business-ideas"
 license: CC-BY-4.0
