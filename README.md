@@ -6,8 +6,8 @@ This dataset carries the five names each edition opens to every reader, for the 
 
 ## Files
 
-- `trending-domains.json`: the investor editions, 178 rows.
-- `business-ideas.json`: the founder editions, 35 rows.
+- `trending-domains.json`: the investor editions, 183 rows.
+- `business-ideas.json`: the founder editions, 40 rows.
 - `trending-domains.csv` and `business-ideas.csv`: the same rows and columns as CSV.
 - `DATA_DICTIONARY.md`: every column, its type and what it holds.
 - `LICENSE` and `CITATION.cff`.
