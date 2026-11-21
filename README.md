@@ -1,13 +1,13 @@
 # Trending Domains and Business Ideas, daily
 
-Every morning at 06:00 UTC, Unique.domains turns the day's rising searches into names you can still register. Two editions go out: [Trending Domains](https://unique.domains/trending-domains?utm_source=github&utm_medium=referral&utm_campaign=repo_trending_domains_business_ideas&utm_content=readme) for domain investors and [Business Ideas](https://unique.domains/business-ideas?utm_source=github&utm_medium=referral&utm_campaign=repo_trending_domains_business_ideas&utm_content=readme) for founders. Each one names the trends rising in search, with their monthly searches and growth, and one domain name for each trend; the founder edition adds a business idea written for the trend.
+Every morning at 06:00 UTC, Unique.domains turns the day's rising searches into domain names. Two editions go out: [Trending Domains](https://unique.domains/trending-domains?utm_source=github&utm_medium=referral&utm_campaign=repo_trending_domains_business_ideas&utm_content=readme) for domain investors and [Business Ideas](https://unique.domains/business-ideas?utm_source=github&utm_medium=referral&utm_campaign=repo_trending_domains_business_ideas&utm_content=readme) for founders. Each one names the trends rising in search, with their monthly searches and growth when known, and one domain name for each trend; the founder edition adds a business idea written for the trend.
 
-This dataset carries the five names each edition opens to every reader, for the newest 90 editions of each page, with each name's status and price on the day it was published. The names are in the edition's own order: the file never ranks or scores them.
+This dataset carries the names each edition opens to every reader, up to five, for the newest 90 editions of each page, with each name's status and price on the day it was published. The names are in the edition's own order: the file never ranks or scores them.
 
 ## Files
 
-- `trending-domains.json`: the investor editions, 198 rows.
-- `business-ideas.json`: the founder editions, 55 rows.
+- `trending-domains.json`: the investor editions, 203 rows.
+- `business-ideas.json`: the founder editions, 60 rows.
 - `trending-domains.csv` and `business-ideas.csv`: the same rows and columns as CSV.
 - `DATA_DICTIONARY.md`: every column, its type and what it holds.
 - `LICENSE` and `CITATION.cff`.
