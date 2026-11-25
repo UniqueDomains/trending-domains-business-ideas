@@ -6,8 +6,8 @@ This dataset carries the names each edition opens to every reader, up to five, f
 
 ## Files
 
-- `trending-domains.json`: the investor editions, 218 rows.
-- `business-ideas.json`: the founder editions, 75 rows.
+- `trending-domains.json`: the investor editions, 223 rows.
+- `business-ideas.json`: the founder editions, 80 rows.
 - `trending-domains.csv` and `business-ideas.csv`: the same rows and columns as CSV.
 - `DATA_DICTIONARY.md`: every column, its type and what it holds.
 - `LICENSE` and `CITATION.cff`.
@@ -26,7 +26,7 @@ Also on [Kaggle](https://www.kaggle.com/datasets/uniquedomains/trending-domains-
 
 Questions: kai@unique.domains.
 
-From code: the [Node.js SDK and CLI](https://github.com/UniqueDomains/nodejs) (`npm install @uniquedomains/sdk`), the [Python client](https://github.com/UniqueDomains/python) (`pip install uniquedomains`) and the [MCP server](https://github.com/UniqueDomains/mcp-server) for AI assistants, hosted at `https://mcp.unique.domains/mcp`.
+From code: the [Node.js SDK and CLI](https://github.com/UniqueDomains/nodejs) (`npm install domain-name-api`), the [Python client](https://github.com/UniqueDomains/python) (`pip install uniquedomains`) and the [MCP server](https://github.com/UniqueDomains/mcp-server) for AI assistants, hosted at `https://mcp.unique.domains/mcp`.
 
 ## How to cite
 
